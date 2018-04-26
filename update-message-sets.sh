@@ -25,3 +25,7 @@ echo "Updating message sets"
 
 cp openkorp-message-set/openkorp-message-set.odvd src/openkorp-message-set.odvd
 cp opendlv.standard-message-set/opendlv.odvd src/opendlv-standard-message-set.odvd
+
+echo "Updating libcluon"
+wget -q  https://raw.githubusercontent.com/chrberger/libcluon/gh-pages/headeronly/cluon-complete.hpp -O src/cluon-complete.hpp
+echo "Done"
