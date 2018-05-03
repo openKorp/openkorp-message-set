@@ -16,8 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 message openkorp.proxy.PwmMotorRequest [id = 2000] {
-  string name [id = 1];
-  float power [id = 2];
+  float power [id = 1];
 }
 message openkorp.logic.State [id = 2010] {
   float roll [id = 1];
