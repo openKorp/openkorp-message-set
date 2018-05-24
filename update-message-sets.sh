@@ -23,9 +23,6 @@ git submodule -q update --remote
 
 echo "Updating message sets"
 
-cp openkorp-message-set/openkorp-message-set.odvd http/openkorp-message-set.odvd
-cp opendlv.standard-message-set/opendlv.odvd http/opendlv-standard-message-set.odvd
+cp openkorp-message-set/openkorp-message-set.odvd src/openkorp-message-set.odvd
+cp opendlv.standard-message-set/opendlv.odvd src/opendlv-standard-message-set.odvd
 
-
-# paste -s openkorp-message-set/openkorp-message-set.odvd opendlv.standard-message-set/opendlv.odvd > http/openkorp-message-set.odvd
- 
