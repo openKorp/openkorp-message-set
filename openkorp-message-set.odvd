@@ -32,3 +32,9 @@ message openkorp.logic.StateRequest [id = 2011] {
   float rollTrim [id = 5];
   float pitchTrim [id = 6];
 }
+message openkorp.logic.Quaternion [id = 2011] {
+  float w [id = 1];
+  float x [id = 2];
+  float y [id = 3];
+  float z [id = 4];
+}
