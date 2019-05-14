@@ -19,6 +19,13 @@ message openkorp.proxy.PwmMotorRequest [id = 2000] {
   float power [id = 1];
 }
 
+message openkorp.logic.Quaternion [id = 2010] {
+  float w [id = 1];
+  float x [id = 2];
+  float y [id = 3];
+  float z [id = 4];
+}
+
 message openkorp.logic.StateRequest [id = 2011] {
   float baseThrust [id = 1];
   float roll [id = 2];
@@ -28,9 +35,3 @@ message openkorp.logic.StateRequest [id = 2011] {
   float pitchTrim [id = 6];
 }
 
-message openkorp.logic.Quaternion [id = 2011] {
-  float w [id = 1];
-  float x [id = 2];
-  float y [id = 3];
-  float z [id = 4];
-}
